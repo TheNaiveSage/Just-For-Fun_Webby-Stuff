@@ -19,6 +19,7 @@
         name="first-name"
         placeholder="First name"
         required
+		style="margin-bottom:15px;"
       />
 	  <input
         class="fs-input"
@@ -26,9 +27,8 @@
         name="last-name"
         placeholder="Last name"
         required
+		style="margin-bottom:15px;"
       />
-
-
     <div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="email-address">Email Address</label>
       <input
@@ -182,7 +182,7 @@
     <div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="country">Country</label>
       <select class="fs-select" id="country" name="country" required>
-        <option value="us">United States</option>
+        <option value="USA">United States</option>
         <option value="canada">Canada</option>
         <option value="other">Other</option>
       </select>
@@ -193,9 +193,9 @@
     <div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="product-color">Weedender Color</label>
       <select class="fs-select" id="product-color" name="product-color" required>
-        <option value="product-a">--Select--</option>
-		<option value="product-b">Green</option>
-        <option value="product-c">Black</option>
+        <option value="">--Select--</option>
+		<option value="green">Green</option>
+        <option value="black">Black</option>
       </select>
     </div>
     <div class="fs-field" style="margin-bottom:15px;">
@@ -210,10 +210,10 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="unit">Length Unit</label>
       <select class="fs-select" id="unit" name="unit" required>
-        <option value="unit-a">--Select--</option>
-		<option value="unit-b">Linear Feet</option>
-        <option value="unit-c">Square Yards</option>
-        <option value="unit-d">Miles</option>
+        <option value="">--Select--</option>
+		<option value="feet">Linear Feet</option>
+        <option value="yards">Square Yards</option>
+        <option value="miles">Miles</option>
       </select>
     </div>
 	<div class="fs-field" style="margin-bottom:15px;">
@@ -229,9 +229,9 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="multiple-widths">Does project have combination of different widths?</label>
       <select class="fs-select" id="multiple-widths" name="multiple-widths" required>
-        <option value="answer-a">--Select--</option>
-		<option value="answer-b">Yes</option>
-        <option value="answer-c">No</option>
+        <option value="">--Select--</option>
+		<option value="yes">Yes</option>
+        <option value="no">No</option>
       </select>
     </div>
 	<div class="fs-field" style="margin-bottom:15px; text-indent: 20px;">
@@ -245,9 +245,9 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="structure">Will WeedEnder be installed under NEW Construction or EXISTING Structure?</label>
       <select class="fs-select" id="structure" name="structure" required style="margin-bottom:15px;">
-        <option value="structure-a">--Select--</option>
-		<option value="structure-b">New</option>
-        <option value="structure-c">Existing</option>
+        <option value="">--Select--</option>
+		<option value="new">New</option>
+        <option value="existing">Existing</option>
       </select>
 	</div>
 	<div class="fs-field" style="margin-bottom:15px;">
@@ -287,10 +287,10 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="post-hole">Choose Material POST HOLE options:</label>
       <select class="fs-select" id="post-hole" name="post-hole" style="margin-bottom:15px;">
-        <option value="post-hole-a">--Select--</option>
-		<option value="post-hole-b">Non-Punched</option>
-        <option value="post-hole-c">Punched</option>
-        <option value="post-hole-d">Punched and Perforated (slit)</option>
+        <option value="">--Select--</option>
+		<option value="non-punched">Non-Punched</option>
+        <option value="punched">Punched</option>
+        <option value="perforated">Punched and Perforated (slit)</option>
       </select>
 	</div>
 	<div class="fs-field" style="margin-bottom:15px;">
@@ -316,25 +316,25 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="post-num">How many posts in sign?</label>
       <select class="fs-select" id="post-num" name="post-num" style="margin-bottom:15px;">
-        <option value="post-num-a">--Select--</option>
-		<option value="post-num-b">1</option>
-        <option value="post-num-c">2</option>
-        <option value="post-num-d">3</option>
+        <option value="">--Select--</option>
+		<option value="post-num-1">1</option>
+        <option value="post-num-2">2</option>
+        <option value="post-num-3">3</option>
       </select>
 	</div>
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="mat-size">What size mat do you prefer?</label>
       <select class="fs-select" id="mat-size" name="mat-size" style="margin-bottom:15px;">
-        <option value="mat-size-a">--Select--</option>
-		<option value="mat-size-b">2' X 3'</option>
-        <option value="mat-size-c">3' X 3'</option>
-        <option value="mat-size-d">4' X 4'</option>
-		<option value="mat-size-e">4' X 8'</option>
-        <option value="mat-size-f">6' X 6'</option>
-        <option value="mat-size-g">6' X 8'</option>
-        <option value="mat-size-h">6' X 12'</option>
-		<option value="mat-size-i">6' X 19'</option>
-        <option value="mat-size-j">Other</option>
+        <option value="">--Select--</option>
+		<option value="mat-size-2x3">2' X 3'</option>
+        <option value="mat-size-3x3">3' X 3'</option>
+        <option value="mat-size-4x4">4' X 4'</option>
+		<option value="mat-size-4x8">4' X 8'</option>
+        <option value="mat-size-6x6">6' X 6'</option>
+        <option value="mat-size-6x8">6' X 8'</option>
+        <option value="mat-size-6x12">6' X 12'</option>
+		<option value="mat-size-6x19">6' X 19'</option>
+        <option value="mat-size-other">Other</option>
       </select>
 	</div>
 	<div class="fs-field" style="margin-bottom:15px; text-indent: 20px;">
@@ -349,19 +349,19 @@
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="ped-mat"></label>
       <select class="fs-select" id="ped-mat" name="ped-mat" style="margin-bottom:15px;">
-        <option value="ped-mat-a">--Select--</option>
-		<option value="ped-mat-b">Ped-Mat 1 - For Round Pedestals</option>
-        <option value="ped-mat-c">Ped-Mat 2 - For Square or Rectangle Pedestals</option>
-        <option value="ped-mat-d">Ped-Mat 3 - No punch - cut to fit</option>
+        <option value="">--Select--</option>
+		<option value="ped-mat-1">Ped-Mat 1 - For Round Pedestals</option>
+        <option value="ped-mat-2">Ped-Mat 2 - For Square or Rectangle Pedestals</option>
+        <option value="ped-mat-3">Ped-Mat 3 - No punch - cut to fit</option>
       </select>
 	</div>
 	<h5 style="margin-bottom:20px;">If used around FIRE HYDRANTS (Choose one):</h5>
 	<div class="fs-field" style="margin-bottom:15px;">
       <label class="fs-label" for="hydro-mat"></label>
       <select class="fs-select" id="hydro-mat" name="hydro-mat" style="margin-bottom:15px;">
-        <option value="hydro-mat-a">--Select--</option>
-		<option value="hydro-mat-b">Hydro- Mat - 36" Diameter (OD)</option>
-        <option value="hydro-mat-c">Hydro- Mat - 36" Diameter (OD)</option>
+        <option value="">--Select--</option>
+		<option value="hydro-mat-36">Hydro- Mat - 36" Diameter (OD)</option>
+        <option value="hydro-mat-48">Hydro- Mat - 48" Diameter (OD)</option>
       </select>
 	</div>
     <div class="fs-field col-span-full" style="margin-bottom:15px;">
@@ -375,7 +375,8 @@
         placeholder="Enter any customization or specific requests (optional)"></textarea>
     </div>
   </fieldset>
-  <fieldset>
+ <!--
+ <fieldset>
     <div class="fs-checkbox-field">
       <div class="fs-checkbox-wrapper">
         <input
@@ -394,6 +395,8 @@
       </div>
     </div>
   </fieldset>
+  -->
+  
   <div class="fs-button-group">
     <button class="fs-button" type="submit" 
 	style="background:#649352; color:#fff; padding:12px 20px; border:none; cursor:pointer;"
