@@ -1,0 +1,5 @@
+I created this file to update a contact form that throws an error because I cannot edit the theme. This is a form-ception that does not throw an error but inherits the current theme. 
+
+Changes: 
+1. fixed the full name reduncancy in formspree.
+2.
