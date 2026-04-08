@@ -1,0 +1,7 @@
+echo "# Just-For-Fun_Webby-Stuff" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/TheNaiveSage/Just-For-Fun_Webby-Stuff.git
+git push -u origin master
